@@ -32,7 +32,7 @@ systemctl enable shadowsocks-server
 systemctl restart shadowsocks-server
 systemctl status shadowsocks-server
 
-VERSION=20180316
+VERSION=20180810
 wget https://github.com/xtaci/kcptun/releases/download/v$VERSION/kcptun-linux-amd64-$VERSION.tar.gz
 tar zxf kcptun-linux-amd64-$VERSION.tar.gz
 rm -f client_linux_amd64 kcptun-linux-amd64-$VERSION.tar.gz
